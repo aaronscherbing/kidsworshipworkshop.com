@@ -1,0 +1,52 @@
+html {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 2.0rem 2.4rem;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 0.4rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.flex-row {
+    display: flex;
+
+    &.wrap {
+        flex-wrap: wrap;
+    }
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 32rem;
+}
+
+.section-spacer {
+    margin-bottom: 2.4rem;
+}
+
+.item-spacer {
+    margin-bottom: 0.8rem;
+}
+
+.indent-1 {
+    margin-left: 2.4rem;
+}
